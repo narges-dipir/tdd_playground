@@ -6,6 +6,9 @@ class Game {
         private set
 
     fun incrementScore() {
-        // TODO
+        score++
+        if (score > highScore) {
+            highScore++
+        }
     }
 }

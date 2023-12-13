@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6254f995-196a-4582-9000-7dba8d196a6e" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/Main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/Game.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/GameTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/Main.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/GetSearchUrl.kt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -57,7 +59,31 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.GetSearchUrlTest">
+  <component name="RunManager" selected="Gradle.GameTest.incrementScore">
+    <configuration name="GameTest.incrementScore" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GameTest.incrementScore&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="GetSearchUrlTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -132,6 +158,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GameTest.incrementScore" />
         <item itemvalue="Gradle.GetSearchUrlTest" />
         <item itemvalue="Gradle.GetSearchUrlTest.getSearchUrl non-null check assertion" />
         <item itemvalue="Gradle.GetSearchUrlTest.getSearchUrl null check assertion" />
@@ -146,7 +173,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702110955749</updated>
-      <workItem from="1702110956692" duration="6348000" />
+      <workItem from="1702110956692" duration="7403000" />
     </task>
     <task id="LOCAL-00001" summary="GetSearchUrl -- Red">
       <created>1702387143404</created>
@@ -176,7 +203,14 @@
       <option name="project" value="LOCAL" />
       <updated>1702388849549</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="GetSearchUrl -- non-null assertion - green">
+      <created>1702465524514</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1702465524514</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +221,7 @@
     <MESSAGE value="GetSearchUrl -- failed test" />
     <MESSAGE value="GetSearchUrl -- Green" />
     <MESSAGE value="GetSearchUrl -- non-null assertion - Red" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetSearchUrl -- non-null assertion - Red" />
+    <MESSAGE value="GetSearchUrl -- non-null assertion - green" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetSearchUrl -- non-null assertion - green" />
   </component>
 </project>
