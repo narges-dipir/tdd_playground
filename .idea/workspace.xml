@@ -57,7 +57,55 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.GetSearchUrlTest">
+    <configuration name="GetSearchUrlTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GetSearchUrlTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="GetSearchUrlTest.getSearchUrl non-null check assertion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":test" />
+            <option value="--tests" />
+            <option value="&quot;GetSearchUrlTest.getSearchUrl non-null check assertion&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="GetSearchUrlTest.getSearchUrl null check assertion" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -84,6 +132,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.GetSearchUrlTest" />
+        <item itemvalue="Gradle.GetSearchUrlTest.getSearchUrl non-null check assertion" />
         <item itemvalue="Gradle.GetSearchUrlTest.getSearchUrl null check assertion" />
       </list>
     </recent_temporary>
@@ -96,7 +146,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1702110955749</updated>
-      <workItem from="1702110956692" duration="4159000" />
+      <workItem from="1702110956692" duration="6348000" />
     </task>
     <task id="LOCAL-00001" summary="GetSearchUrl -- Red">
       <created>1702387143404</created>
@@ -112,7 +162,21 @@
       <option name="project" value="LOCAL" />
       <updated>1702387867987</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="GetSearchUrl -- Green">
+      <created>1702388333514</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1702388333514</updated>
+    </task>
+    <task id="LOCAL-00004" summary="GetSearchUrl -- non-null assertion - Red">
+      <created>1702388849549</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1702388849549</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,6 +185,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="GetSearchUrl -- Red" />
     <MESSAGE value="GetSearchUrl -- failed test" />
-    <option name="LAST_COMMIT_MESSAGE" value="GetSearchUrl -- failed test" />
+    <MESSAGE value="GetSearchUrl -- Green" />
+    <MESSAGE value="GetSearchUrl -- non-null assertion - Red" />
+    <option name="LAST_COMMIT_MESSAGE" value="GetSearchUrl -- non-null assertion - Red" />
   </component>
 </project>
